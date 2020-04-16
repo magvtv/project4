@@ -2,10 +2,11 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <meta charset= "utf-8">
-
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/myStyles" rel="stylesheet">
+    <meta charset= "utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/myStyles" rel="stylesheet" type="text/css"> 
     <script href="js/bootstrap.js"></script>
     <script src="js/jquery-3.4.1.js"></script>
 
@@ -13,16 +14,21 @@
     
 </head>
 <body>
-    <div class="container p-4 my-4 bg-danger text-white">
-    <div class="heda">
+    <header>
+        <div class="top">
+            <div class="col-lg-12">
+        <!--<div class="container p-4 my-4 bg-danger text-white">-->
         <h1><strong>WELCOME TO PITZA & PITZA</strong></h1>
     </div>
     </div>
+</div>
+</header>
+
 
     <br><br>
+<article>
 
-
-    <div class="jumbotron jumbotron-fluid">
+    <div class="container pt-3">
         <div class="sizes">
         <h2><i>Choose your pitza size:</i></h2>
 <div class="row">
@@ -64,16 +70,19 @@
 </div>
 </div>
 
-
+</div>
 </div>
 
-</div>
+
+
+
 <br><br>
 
 
 <div class="toppings">
     <h2><i>Select your toppings:</i></h2>
     <div class="row">
+
         <div class="col-lg-4">
             <div class="form-check-inline">
                 <label class="form-check-label" for="tp1">
@@ -81,16 +90,16 @@
                 Pepperoni
             </label>
             </div>
-</div>
+        </div>
     
-<div class="col-lg-4">
-    <div class="form-check-inline">
-        <label class="form-check-label" for="tp2">
+        <div class="col-lg-4">
+            <div class="form-check-inline">
+            <label class="form-check-label" for="tp2">
             <input class="form-check-inline" type="checkbox" id="tp2" name="mushrooms" value="pitza toppings">
             Mushrooms
         </label>
-    </div>
-    </div>
+         </div>
+        </div>
 
     <div class="col-lg-4">
     <div class="form-check-inline">
@@ -102,39 +111,45 @@
     </div>
 
 
-    <div class="col-lg-4">
-    <div class="form-check-inline">
-        <label class="form-check-label" for="tp4">
-            <input class="form-check-inline" type="checkbox" id="tp4" name="bacons" value="pitza toppings">
+        <div class="col-lg-4">
+            <div class="form-check-inline">
+                <label class="form-check-label" for="tp4">
+             <input class="form-check-inline" type="checkbox" id="tp4" name="bacons" value="pitza toppings">
             Bacons
-        </label>
-    </div>
-</div>
+             </label>
+             </div>
+            </div>
 
 
-<div class="col-lg-4">
-<div class="form-check-inline">
-    <label class="form-check-label" for="tp5">
-        <input class="form-check-inline" type="checkbox" id="tp5" name="xtra cheese" value="pitza toppings">
-        Xtra Cheese
-    </label>
-</div>
-</div>
+            <div class="col-lg-4">
+            <div class="form-check-inline">
+                <label class="form-check-label" for="tp5">
+                <input class="form-check-inline" type="checkbox" id="tp5" name="xtra cheese" value="pitza toppings">
+                 Xtra Cheese
+            </label>
+        </div>
+        </div>
 
 
-<div class="col-lg-4">
-<div class="form-check-inline">
-    <label class="form-check-label" for="tp6">
-        <input class="form-check-inline" type="checkbox" id="tp6" name="green peppers" value="pitza toppings">
-        Green Peppers
-    </label>
-</div>
-</div>
+            <div class="col-lg-4">
+                <div class="form-check-inline">
+                     <label class="form-check-label" for="tp6">
+                         <input class="form-check-inline" type="checkbox" id="tp6" name="green peppers" value="pitza toppings">
+                             Green Peppers
+                             </label>
+                        </div>
+                        </div>
 
-</div>
-</div>
+            </div>
+                </div>
+
+
+    
+
 
 <br><br>
+
+
 
 <div class="crusts">
     <h2><i>Select your favourite crust:</i></h2>
@@ -177,7 +192,7 @@
 
 <div class="col-lg-6">
     <div class="form-check-inline">
-        <label class="foirm-check-label" for="cr5">
+        <label class="form-check-label" for="cr5">
             <input class="form-check-inline" type="checkbox" id="cr5" name="stuffed" value="pitza crust">
             Stuffed
         </label>
@@ -196,66 +211,42 @@
 
     </div>
 </div>
-
-<br><br><br>
-
+</div>
 
 
+</article>
 
-
-
+<br><br>
 
 
 
+<br><br>
 
+<aside>
+    <div class="container">
 
+<div class="deliver">
+    <div class="card-body bg-warning text-white">
+            <h3>Delivery Options</h3>
+        
+        <div class="card-body">
+            <div class="column">
+                <div class="row-lg-3">
+            <select class="form-control" id="deliver">
+                <option>To my location</option>
+                <option>Nearest Pitza in my location</option>
+            </select>
 
+            <button type="button" class="btn btn-danger">Danger</button>
 
+        </div>
+    </div>
+</div>
+</div>
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
+</aside>
 
 
 

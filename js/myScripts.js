@@ -40,6 +40,32 @@ Pitza.prototype.calculateBei = function () {
         if (this.toppings[i] === "green pepppers") {
             bei += 100
         }
+
+        for (var i = 0; i < this.crust.length; i++) {
+            if (this.crust[i] === "thin") {
+                bei += 100
+            }
+
+            if (this.crust[i] === "thick") {
+                bei += 150
+            }
+
+            if (this.crust[i] === "deep") {
+                bei += 200
+            }
+
+            if (this.crust[i] === "mozzarella filled") {
+                bei += 250
+            }
+
+            if (this.crust[i] === "stuffed") {
+                bei += 170
+            }
+
+            if(this.crust[i] === "glutten free") {
+                bei += 100
+            }
+        }
     }
     return bei;
  }
