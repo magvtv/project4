@@ -1,6 +1,14 @@
-.header {
+* {
+    box-sizing: border-box;
+}
+
+
+/*styling the top bar */
+
+.heda {
     background-color: red;
-    padding: 10px;
-    font-size: 35px;
+    padding: 100px;
+    font-size: 50px;
     color: whitesmoke;
+    text-align: center;
 }
