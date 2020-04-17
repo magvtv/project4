@@ -123,3 +123,7 @@ $("#deLiver").click(function() {
     }
 })
 
+$("#bei").text(`Total : $"
+{pitza.calculateBei()}`);
+
+$(".")
